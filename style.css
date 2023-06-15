@@ -1,0 +1,148 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    display: flex;
+    flex-direction: column;
+}
+.upper-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-top: 20px;
+}
+.upper-container p{
+    font-size: 6vh;
+    font-weight: 900;
+}
+.upper-container #historyBtn , .upper-container #saveBtn{
+    background-color: black;
+    color: #fff;
+    border-radius: 14px;
+    width: 15%;
+    height: 4vw;
+    font-size: 20px;
+    cursor: pointer;
+}
+/* .upper-container #saveBtn{
+    background-color: black;
+    color: #fff;
+    border-radius: 14px;
+    width: 15%;
+    height: 4vw;
+    font-size: 20px;
+    cursor: pointer;
+
+} */
+
+.sub-container{
+    display: flex;
+    flex-direction: column;
+    margin-top: 5vw;
+    margin-left: 14vw;
+}
+
+.mid-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    margin-left: 1%;
+    margin-bottom: 1%;
+    flex-wrap: wrap;
+}
+.box1{
+
+}
+
+.box1 #problemBar{
+    position: relative;
+    bottom: 2px;
+    left: -15px;
+    /* bottom: 3px;
+    left: -30px; */
+    border-radius: 25px;
+    border: none;
+    width: 100%;
+    height: 100%;
+    font-size: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: #d1d1d1c9;
+    color: black;
+}
+input[type="text"]{
+    text-align: center;
+}
+.mid-container .box2 #categoryBar{
+    position: relative;
+    left: -8px;
+    border-radius: 25px;
+    border: none;
+    width: 100%;
+    height: 100%;
+    font-size: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: black;
+    color: #fff;
+    cursor: pointer;
+}
+#searchBtn{
+    background-color: #d1d1d1c9;
+    position: relative;
+    /* bottom: -; */
+    /* top: 10px; */
+    bottom: -30px;
+    width: 80px;
+    height: 50px;
+    border-radius: 25px;
+    
+    border: none;
+    cursor: pointer;
+}
+
+.input-container {
+    position: relative;
+    bottom: -40px;
+    background-color: #d1d1d1c9;
+    color: black;
+    width: 64%;
+    height: 18vw;
+    /* top:-7vh; */
+    border-radius: 25px;
+}
+.input-container button{
+    position: absolute;
+    top: 80%;
+    left: 92.8%;
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+}
+.history-container{
+    position: relative;
+    background-color: rgba(209, 209, 209, 0.79);
+    color: black;
+    width: 54%;
+    min-height: 18vw;
+    height: auto;
+    margin-left: 14vw;
+    padding: 1%;
+    border-radius: 25px;
+    display: none;
+}
+.inputBox1{
+    font-weight: 800;
+    font-size: xx-large;
+    margin-left: 2%;
+}
+.inputBox2{
+    display: flex;
+    height: 75%;
+    align-items: center;
+    margin-left: 7%;
+    font-weight: 600;
+    font-size: x-large;
+
+}
